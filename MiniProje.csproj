@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="Jenkinsfile" />
+    <Content Include="Jenkinsfile" />
   </ItemGroup>
 
   <ItemGroup>

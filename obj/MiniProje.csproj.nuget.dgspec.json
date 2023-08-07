@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\msika\\OneDrive\\Desktop\\BilgMuh\\3Sinif1D\\nyp\\WebApiDemoApp\\MiniProje\\MiniProje.csproj": {}
+    "C:\\Users\\msika\\OneDrive\\Desktop\\MiniProjeJenkins\\MiniProje.csproj": {}
   },
   "projects": {
-    "C:\\Users\\msika\\OneDrive\\Desktop\\BilgMuh\\3Sinif1D\\nyp\\WebApiDemoApp\\MiniProje\\MiniProje.csproj": {
+    "C:\\Users\\msika\\OneDrive\\Desktop\\MiniProjeJenkins\\MiniProje.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\msika\\OneDrive\\Desktop\\BilgMuh\\3Sinif1D\\nyp\\WebApiDemoApp\\MiniProje\\MiniProje.csproj",
+        "projectUniqueName": "C:\\Users\\msika\\OneDrive\\Desktop\\MiniProjeJenkins\\MiniProje.csproj",
         "projectName": "MiniProje",
-        "projectPath": "C:\\Users\\msika\\OneDrive\\Desktop\\BilgMuh\\3Sinif1D\\nyp\\WebApiDemoApp\\MiniProje\\MiniProje.csproj",
+        "projectPath": "C:\\Users\\msika\\OneDrive\\Desktop\\MiniProjeJenkins\\MiniProje.csproj",
         "packagesPath": "C:\\Users\\msika\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\msika\\OneDrive\\Desktop\\BilgMuh\\3Sinif1D\\nyp\\WebApiDemoApp\\MiniProje\\obj\\",
+        "outputPath": "C:\\Users\\msika\\OneDrive\\Desktop\\MiniProjeJenkins\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
