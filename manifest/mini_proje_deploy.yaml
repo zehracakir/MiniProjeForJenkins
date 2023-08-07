@@ -1,0 +1,22 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mini-deploy
+spec:
+  selector:
+    matchLabels:
+      app: httpd
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: httpd
+    spec:
+      containers:
+        - name: httpd
+          image: 'mini_proje:1.9'
+          ports:
+            - containerPort: 11130
+          envFrom:
+            -   configMapRef:
+                    name: config-map

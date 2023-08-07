@@ -1,0 +1,7 @@
+﻿apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: config-map
+data: 
+  APP_DATA_SIRKET: Ziraat Teknoloji DevOps
+  APP_DATA_CALISAN: Zehra Çakır

@@ -1,0 +1,15 @@
+﻿apiVersion: v1
+kind: Service
+metadata:
+  name: mini-proje
+spec:
+  ports:
+  - name: mini-proje
+    port: 8085
+    protocol: TCP
+    targetPort: 11130
+  selector:
+    app: mini-proje
+  type: LoadBalancer
+status:
+  loadBalancer: {}
