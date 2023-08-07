@@ -8,6 +8,11 @@
 
   <ItemGroup>
     <None Remove="Dockerfile" />
+    <None Remove="Jenkinsfile" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Jenkinsfile" />
   </ItemGroup>
 
   <ItemGroup>
