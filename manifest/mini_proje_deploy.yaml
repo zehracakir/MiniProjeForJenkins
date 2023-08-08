@@ -5,16 +5,16 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: httpd
+      app: mini-proje
   replicas: 1
   template:
     metadata:
       labels:
-        app: httpd
+        app: mini-proje
     spec:
       containers:
-        - name: httpd
-          image: 'mini_proje:1.9'
+        - name: mini-proje
+          image: 'mini_proje:2.6'
           ports:
             - containerPort: 11130
           envFrom:
