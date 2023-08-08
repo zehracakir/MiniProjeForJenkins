@@ -1,7 +1,7 @@
 ﻿apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mini-deploy
+  name: mini-proje
 spec:
   selector:
     matchLabels:

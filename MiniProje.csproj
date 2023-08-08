@@ -9,6 +9,7 @@
   <ItemGroup>
     <None Remove="Dockerfile" />
     <None Remove="Jenkinsfile" />
+    <None Remove="manifest\mini_proje_deploy.yaml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,6 +18,7 @@
 
   <ItemGroup>
     <Content Include="Dockerfile" />
+    <Content Include="manifest\mini_proje_deploy.yaml" />
   </ItemGroup>
 
   <ItemGroup>
