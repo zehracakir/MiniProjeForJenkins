@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: mini-proje
-          image: 'mini_proje:2.6'
+          image: 'zehracakir/mini_proje:3.0'
           ports:
             - containerPort: 11130
           envFrom:
